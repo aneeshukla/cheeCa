@@ -1,0 +1,1885 @@
+<!DOCTYPE html>
+<html>
+<article itemtype="https://schema.org/CreativeWork" itemscope="itemscope" id="post-5" class="post-5 page type-page status-publish ast-article-single">
+    <div class="ast-post-format- ast-no-thumb single-layout-1">
+        <header class="entry-header ast-no-thumbnail ast-no-meta" >  
+            <title>Unsure?</title>
+		<style>
+		body {
+  font-family: sans-serif;
+      background-image: linear-gradient(gray,black,purple,blue,#20BF9F,#40E0D0,green,yellow,red);
+}
+
+
+h2 {
+  margin: 5px 0;
+}
+#wrapper {
+  width: 700px;
+  margin: 0 auto;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+form {
+	
+	
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 320px;
+}
+input {
+  margin: 5px 10px;
+  
+}
+.options
+{
+text-align: left;
+}
+button {
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px 0;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  border-bottom: 3px solid #333;
+}
+.each-question{
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.btn {
+  background: red;
+}
+
+
+#reset {
+  background: red;
+}
+#answer {
+  border: 1px dashed #ccc;
+  background: #eee;
+  padding: 10px;
+}
+			</style>
+        </header>
+		<div id="wrapper">
+        <div class="entry-content clear" itemprop="text" >
+            <div class="question-portion" align="center">
+                <div class="adjust-width">
+                    <div class="question-part">
+                        <form id="question_list" method="post" action="/ans">
+                            <div class="thehead">
+							<h1 align="center">Fill out the quitionaire to help us understand your interests!</h1></div>
+                            <div id="ajax_list_data" class="questions-portion">
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Solve math problems.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_253">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans1op1" name="ans_253">
+                                                <label for="ans1op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans1op2" name="ans_253">
+                                                <label for="ans1op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans1op3" name="ans_253" class="custom">
+                                                <label for="ans1op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans1op4" name="ans_253">
+                                                <label for="ans1op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Start or run a business.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_254">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans2op1" name="ans_254">
+                                                <label for="ans2op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans2op2" name="ans_254">
+                                                <label for="ans2op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans2op3" name="ans_254" class="custom">
+                                                <label for="ans2op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans2op4" name="ans_254">
+                                                <label for="ans2op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Learn computer software programs.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_255">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans3op1" name="ans_255">
+                                                <label for="ans3op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans3op2" name="ans_255">
+                                                <label for="ans3op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans3op3" name="ans_255" class="custom">
+                                                <label for="ans3op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans3op4" name="ans_255">
+                                                <label for="ans3op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Use computer software to design art.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_256">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans4op1" name="ans_256">
+                                                <label for="ans4op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans4op2" name="ans_256">
+                                                <label for="ans4op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans4op3" name="ans_256" class="custom">
+                                                <label for="ans4op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans4op4" name="ans_256">
+                                                <label for="ans4op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Learn the legal system.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_257">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans5op1" name="ans_257">
+                                                <label for="ans5op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans5op2" name="ans_257">
+                                                <label for="ans5op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans5op3" name="ans_257" class="custom">
+                                                <label for="ans5op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans5op4" name="ans_257">
+                                                <label for="ans5op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Serve the community and keep it safe.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_258">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans6op1" name="ans_258">
+                                                <label for="ans6op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans6op2" name="ans_258">
+                                                <label for="ans6op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans6op3" name="ans_258" class="custom">
+                                                <label for="ans6op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans6op4" name="ans_258">
+                                                <label for="ans6op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Critique art, music, or performances.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_259">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans7op1" name="ans_259">
+                                                <label for="ans7op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans7op2" name="ans_259">
+                                                <label for="ans7op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans7op3" name="ans_259" class="custom">
+                                                <label for="ans7op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans7op4" name="ans_259">
+                                                <label for="ans7op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Bake or design cakes.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_260">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans8op1" name="ans_260">
+                                                <label for="ans8op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans8op2" name="ans_260">
+                                                <label for="ans8op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans8op3" name="ans_260" class="custom">
+                                                <label for="ans8op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans8op4" name="ans_260">
+                                                <label for="ans8op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Teach people new skills.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_261">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans9op1" name="ans_261">
+                                                <label for="ans9op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans9op2" name="ans_261">
+                                                <label for="ans9op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans9op3" name="ans_261" class="custom">
+                                                <label for="ans9op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans9op4" name="ans_261">
+                                                <label for="ans9op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Write a blog, magazine article, or novel.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_262">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans10op1" name="ans_262">
+                                                <label for="ans10op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans10op2" name="ans_262">
+                                                <label for="ans10op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans10op3" name="ans_262" class="custom">
+                                                <label for="ans10op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans10op4" name="ans_262">
+                                                <label for="ans10op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Observe human behavior.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_263">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans11op1" name="ans_263">
+                                                <label for="ans11op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans11op2" name="ans_263">
+                                                <label for="ans11op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans11op3" name="ans_263" class="custom">
+                                                <label for="ans11op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans11op4" name="ans_263">
+                                                <label for="ans11op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                           
+                                            <div class="text">
+                                                <p>Discover why chemicals react to one another.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_264">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans12op1" name="ans_264">
+                                                <label for="ans12op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans12op2" name="ans_264">
+                                                <label for="ans12op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans12op3" name="ans_264" class="custom">
+                                                <label for="ans12op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans12op4" name="ans_264">
+                                                <label for="ans12op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Use math, science, and technology.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_265">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans13op1" name="ans_265">
+                                                <label for="ans13op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans13op2" name="ans_265">
+                                                <label for="ans13op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans13op3" name="ans_265" class="custom">
+                                                <label for="ans13op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans13op4" name="ans_265">
+                                                <label for="ans13op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Fix, build, or assemble various items.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_266">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans14op1" name="ans_266">
+                                                <label for="ans14op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans14op2" name="ans_266">
+                                                <label for="ans14op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans14op3" name="ans_266" class="custom">
+                                                <label for="ans14op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans14op4" name="ans_266">
+                                                <label for="ans14op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Take care of people, even strangers.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_267">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans15op1" name="ans_267">
+                                                <label for="ans15op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans15op2" name="ans_267">
+                                                <label for="ans15op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans15op3" name="ans_267" class="custom">
+                                                <label for="ans15op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans15op4" name="ans_267">
+                                                <label for="ans15op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Learn statistics and accounting.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_268">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans16op1" name="ans_268">
+                                                <label for="ans16op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans16op2" name="ans_268">
+                                                <label for="ans16op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans16op3" name="ans_268" class="custom">
+                                                <label for="ans16op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans16op4" name="ans_268">
+                                                <label for="ans16op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Supervise, hire, and mentor others.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_269">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans17op1" name="ans_269">
+                                                <label for="ans17op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans17op2" name="ans_269">
+                                                <label for="ans17op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans17op3" name="ans_269" class="custom">
+                                                <label for="ans17op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans17op4" name="ans_269">
+                                                <label for="ans17op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Code an app or website.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_270">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans18op1" name="ans_270">
+                                                <label for="ans18op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans18op2" name="ans_270">
+                                                <label for="ans18op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans18op3" name="ans_270" class="custom">
+                                                <label for="ans18op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans18op4" name="ans_270">
+                                                <label for="ans18op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Design the look and feel of a website.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_271">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans19op1" name="ans_271">
+                                                <label for="ans19op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans19op2" name="ans_271">
+                                                <label for="ans19op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans19op3" name="ans_271" class="custom">
+                                                <label for="ans19op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans19op4" name="ans_271">
+                                                <label for="ans19op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Study courses in law.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_272">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans20op1" name="ans_272">
+                                                <label for="ans20op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans20op2" name="ans_272">
+                                                <label for="ans20op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans20op3" name="ans_272" class="custom">
+                                                <label for="ans20op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans20op4" name="ans_272">
+                                                <label for="ans20op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Help people during an emergency.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_273">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans21op1" name="ans_273">
+                                                <label for="ans21op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans21op2" name="ans_273">
+                                                <label for="ans21op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans21op3" name="ans_273" class="custom">
+                                                <label for="ans21op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans21op4" name="ans_273">
+                                                <label for="ans21op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Act, sing, dance, or work behind the scenes of a play.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_274">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans22op1" name="ans_274">
+                                                <label for="ans22op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans22op2" name="ans_274">
+                                                <label for="ans22op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans22op3" name="ans_274" class="custom">
+                                                <label for="ans22op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans22op4" name="ans_274">
+                                                <label for="ans22op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Cook unique dishes for other people.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_275">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans23op1" name="ans_275">
+                                                <label for="ans23op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans23op2" name="ans_275">
+                                                <label for="ans23op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans23op3" name="ans_275" class="custom">
+                                                <label for="ans23op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans23op4" name="ans_275">
+                                                <label for="ans23op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            <div class="text">
+                                                <p>Motivate others to meet their goals.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_276">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans24op1" name="ans_276">
+                                                <label for="ans24op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans24op2" name="ans_276">
+                                                <label for="ans24op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans24op3" name="ans_276" class="custom">
+                                                <label for="ans24op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans24op4" name="ans_276">
+                                                <label for="ans24op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Prepare a press release or write a commercial.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_277">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans25op1" name="ans_277">
+                                                <label for="ans25op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans25op2" name="ans_277">
+                                                <label for="ans25op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans25op3" name="ans_277" class="custom">
+                                                <label for="ans25op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans25op4" name="ans_277">
+                                                <label for="ans25op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Study ethics or philosophy.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_278">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans26op1" name="ans_278">
+                                                <label for="ans26op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans26op2" name="ans_278">
+                                                <label for="ans26op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans26op3" name="ans_278" class="custom">
+                                                <label for="ans26op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans26op4" name="ans_278">
+                                                <label for="ans26op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Conduct experiments and make observations.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_279">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans27op1" name="ans_279">
+                                                <label for="ans27op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans27op2" name="ans_279">
+                                                <label for="ans27op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans27op3" name="ans_279" class="custom">
+                                                <label for="ans27op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans27op4" name="ans_279">
+                                                <label for="ans27op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Evaluate products and redesign them to be better.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_280">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans28op1" name="ans_280">
+                                                <label for="ans28op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans28op2" name="ans_280">
+                                                <label for="ans28op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans28op3" name="ans_280" class="custom">
+                                                <label for="ans28op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans28op4" name="ans_280">
+                                                <label for="ans28op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Learn a trade.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_281">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans29op1" name="ans_281">
+                                                <label for="ans29op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans29op2" name="ans_281">
+                                                <label for="ans29op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans29op3" name="ans_281" class="custom">
+                                                <label for="ans29op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans29op4" name="ans_281">
+                                                <label for="ans29op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Learn how the body functions.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_282">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans30op1" name="ans_282">
+                                                <label for="ans30op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans30op2" name="ans_282">
+                                                <label for="ans30op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans30op3" name="ans_282" class="custom">
+                                                <label for="ans30op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans30op4" name="ans_282">
+                                                <label for="ans30op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Work with numbers often.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_283">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans31op1" name="ans_283">
+                                                <label for="ans31op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans31op2" name="ans_283">
+                                                <label for="ans31op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans31op3" name="ans_283" class="custom">
+                                                <label for="ans31op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans31op4" name="ans_283">
+                                                <label for="ans31op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Help with business operations.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_284">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans32op1" name="ans_284">
+                                                <label for="ans32op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans32op2" name="ans_284">
+                                                <label for="ans32op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans32op3" name="ans_284" class="custom">
+                                                <label for="ans32op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans32op4" name="ans_284">
+                                                <label for="ans32op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Troubleshoot technology issues.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_285">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans33op1" name="ans_285">
+                                                <label for="ans33op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans33op2" name="ans_285">
+                                                <label for="ans33op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans33op3" name="ans_285" class="custom">
+                                                <label for="ans33op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans33op4" name="ans_285">
+                                                <label for="ans33op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Create a logo or advertisement for a business.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_286">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans34op1" name="ans_286">
+                                                <label for="ans34op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans34op2" name="ans_286">
+                                                <label for="ans34op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans34op3" name="ans_286" class="custom">
+                                                <label for="ans34op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans34op4" name="ans_286">
+                                                <label for="ans34op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Help people resolve issues in a fair and just way.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_287">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans35op1" name="ans_287">
+                                                <label for="ans35op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans35op2" name="ans_287">
+                                                <label for="ans35op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans35op3" name="ans_287" class="custom">
+                                                <label for="ans35op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans35op4" name="ans_287">
+                                                <label for="ans35op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Enforce federal, state, and local laws.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_288">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans36op1" name="ans_288">
+                                                <label for="ans36op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans36op2" name="ans_288">
+                                                <label for="ans36op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans36op3" name="ans_288" class="custom">
+                                                <label for="ans36op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans36op4" name="ans_288">
+                                                <label for="ans36op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Paint, draw, or make sculptures.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_289">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans37op1" name="ans_289">
+                                                <label for="ans37op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans37op2" name="ans_289">
+                                                <label for="ans37op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans37op3" name="ans_289" class="custom">
+                                                <label for="ans37op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans37op4" name="ans_289">
+                                                <label for="ans37op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Work in a kitchen or bakery.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_290">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans38op1" name="ans_290">
+                                                <label for="ans38op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans38op2" name="ans_290">
+                                                <label for="ans38op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans38op3" name="ans_290" class="custom">
+                                                <label for="ans38op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans38op4" name="ans_290">
+                                                <label for="ans38op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Develop lesson plans for classes.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_291">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans39op1" name="ans_291">
+                                                <label for="ans39op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans39op2" name="ans_291">
+                                                <label for="ans39op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans39op3" name="ans_291" class="custom">
+                                                <label for="ans39op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans39op4" name="ans_291">
+                                                <label for="ans39op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Learn another language.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_292">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans40op1" name="ans_292">
+                                                <label for="ans40op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans40op2" name="ans_292">
+                                                <label for="ans40op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans40op3" name="ans_292" class="custom">
+                                                <label for="ans40op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans40op4" name="ans_292">
+                                                <label for="ans40op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Research other cultures or religions.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_293">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans41op1" name="ans_293">
+                                                <label for="ans41op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans41op2" name="ans_293">
+                                                <label for="ans41op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans41op3" name="ans_293" class="custom">
+                                                <label for="ans41op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans41op4" name="ans_293">
+                                                <label for="ans41op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Solve world issues using science.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_294">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans42op1" name="ans_294">
+                                                <label for="ans42op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans42op2" name="ans_294">
+                                                <label for="ans42op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans42op3" name="ans_294" class="custom">
+                                                <label for="ans42op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans42op4" name="ans_294">
+                                                <label for="ans42op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Create and build machines or structures.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_295">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans43op1" name="ans_295">
+                                                <label for="ans43op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans43op2" name="ans_295">
+                                                <label for="ans43op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans43op3" name="ans_295" class="custom">
+                                                <label for="ans43op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans43op4" name="ans_295">
+                                                <label for="ans43op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Work that is physical and keep me moving.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_296">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans44op1" name="ans_296">
+                                                <label for="ans44op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans44op2" name="ans_296">
+                                                <label for="ans44op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans44op3" name="ans_296" class="custom">
+                                                <label for="ans44op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans44op4" name="ans_296">
+                                                <label for="ans44op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Help those who are dying, sick, or depressed.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_297">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans45op1" name="ans_297">
+                                                <label for="ans45op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans45op2" name="ans_297">
+                                                <label for="ans45op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans45op3" name="ans_297" class="custom">
+                                                <label for="ans45op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans45op4" name="ans_297">
+                                                <label for="ans45op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Learn how to invest money.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_298">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans46op1" name="ans_298">
+                                                <label for="ans46op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans46op2" name="ans_298">
+                                                <label for="ans46op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans46op3" name="ans_298" class="custom">
+                                                <label for="ans46op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans46op4" name="ans_298">
+                                                <label for="ans46op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Write a business plan.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_299">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans47op1" name="ans_299">
+                                                <label for="ans47op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans47op2" name="ans_299">
+                                                <label for="ans47op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans47op3" name="ans_299" class="custom">
+                                                <label for="ans47op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans47op4" name="ans_299">
+                                                <label for="ans47op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                          
+                                            <div class="text">
+                                                <p>Keep up with cutting edge technology.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_300">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans48op1" name="ans_300">
+                                                <label for="ans48op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans48op2" name="ans_300">
+                                                <label for="ans48op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans48op3" name="ans_300" class="custom">
+                                                <label for="ans48op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans48op4" name="ans_300">
+                                                <label for="ans48op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Create graphics for video games, films, or websites.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_301">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans49op1" name="ans_301">
+                                                <label for="ans49op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans49op2" name="ans_301">
+                                                <label for="ans49op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans49op3" name="ans_301" class="custom">
+                                                <label for="ans49op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans49op4" name="ans_301">
+                                                <label for="ans49op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Advise others on their legal rights.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_302">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans50op1" name="ans_302">
+                                                <label for="ans50op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans50op2" name="ans_302">
+                                                <label for="ans50op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans50op3" name="ans_302" class="custom">
+                                                <label for="ans50op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans50op4" name="ans_302">
+                                                <label for="ans50op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Help your community during a crisis.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_303">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans51op1" name="ans_303">
+                                                <label for="ans51op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans51op2" name="ans_303">
+                                                <label for="ans51op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans51op3" name="ans_303" class="custom">
+                                                <label for="ans51op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans51op4" name="ans_303">
+                                                <label for="ans51op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Design works of art for others to enjoy.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_304">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans52op1" name="ans_304">
+                                                <label for="ans52op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans52op2" name="ans_304">
+                                                <label for="ans52op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans52op3" name="ans_304" class="custom">
+                                                <label for="ans52op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans52op4" name="ans_304">
+                                                <label for="ans52op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Teach a large group how to do something.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_306">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans53op1" name="ans_306">
+                                                <label for="ans53op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans53op2" name="ans_306">
+                                                <label for="ans53op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans53op3" name="ans_306" class="custom">
+                                                <label for="ans53op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans53op4" name="ans_306">
+                                                <label for="ans53op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Promote or market a brand new product.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_307">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans54op1" name="ans_307">
+                                                <label for="ans54op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans54op2" name="ans_307">
+                                                <label for="ans54op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans54op3" name="ans_307" class="custom">
+                                                <label for="ans54op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans54op4" name="ans_307">
+                                                <label for="ans54op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                                                                       <div class="text">
+                                                <p>Understand world events or politics.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_308">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans55op1" name="ans_308">
+                                                <label for="ans55op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans55op2" name="ans_308">
+                                                <label for="ans55op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans55op3" name="ans_308" class="custom">
+                                                <label for="ans55op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans55op4" name="ans_308">
+                                                <label for="ans55op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Conduct science experiments.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_309">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans56op1" name="ans_309">
+                                                <label for="ans56op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans56op2" name="ans_309">
+                                                <label for="ans56op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans56op3" name="ans_309" class="custom">
+                                                <label for="ans56op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans56op4" name="ans_309">
+                                                <label for="ans56op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Innovate and design better products.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_310">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans57op1" name="ans_310">
+                                                <label for="ans57op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans57op2" name="ans_310">
+                                                <label for="ans57op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans57op3" name="ans_310" class="custom">
+                                                <label for="ans57op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans57op4" name="ans_310">
+                                                <label for="ans57op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>A career requiring less than 2 years of education.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_311">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans58op1" name="ans_311">
+                                                <label for="ans58op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans58op2" name="ans_311">
+                                                <label for="ans58op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans58op3" name="ans_311" class="custom">
+                                                <label for="ans58op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans58op4" name="ans_311">
+                                                <label for="ans58op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Advise people about healthy lifestyle habits.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_312">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans59op1" name="ans_312">
+                                                <label for="ans59op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans59op2" name="ans_312">
+                                                <label for="ans59op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans59op3" name="ans_312" class="custom">
+                                                <label for="ans59op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans59op4" name="ans_312">
+                                                <label for="ans59op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Learn how to cook with various ingredients.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_313">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans60op1" name="ans_313">
+                                                <label for="ans60op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans60op2" name="ans_313">
+                                                <label for="ans60op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans60op3" name="ans_313" class="custom">
+                                                <label for="ans60op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans60op4" name="ans_313">
+                                                <label for="ans60op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Work on a project with a team of people.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_315">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans61op1" name="ans_315">
+                                                <label for="ans61op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans61op2" name="ans_315">
+                                                <label for="ans61op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans61op3" name="ans_315" class="custom">
+                                                <label for="ans61op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans61op4" name="ans_315">
+                                                <label for="ans61op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Work outside most of the time.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_316">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans62op1" name="ans_316">
+                                                <label for="ans62op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans62op2" name="ans_316">
+                                                <label for="ans62op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans62op3" name="ans_316" class="custom">
+                                                <label for="ans62op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans62op4" name="ans_316">
+                                                <label for="ans62op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="each-question">
+                                    <div class="unanswered-question">
+                                        <div class="question-text">
+                                            
+                                            <div class="text">
+                                                <p>Work directly with clients or customers.</p>
+                                            </div>
+                                        </div>
+                                        <div class="options" id="ans_317">
+                                            <div class="radio-button">
+                                                <input type="radio" value="3" id="ans63op1" name="ans_317">
+                                                <label for="ans63op1" class="radio-label">Very Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="2" id="ans63op2" name="ans_317">
+                                                <label for="ans63op2" class="radio-label">Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="1" id="ans63op3" name="ans_317" class="custom">
+                                                <label for="ans63op3" class="radio-label">Slightly Interested</label>
+                                            </div>
+                                            <div class="radio-button">
+                                                <input type="radio" value="0" id="ans63op4" name="ans_317">
+                                                <label for="ans63op4" class="radio-label">Not Interested</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center submit-part">
+                                <p>Check out your test results.</p>
+                                <button id="submit_btn" class="btn" type="submit">SUBMIT</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	</div>
+</article>
+</main>
+</div>
+<script>
+        document.getElementById("submit_btn").addEventListener("click", function (event) {
+            console.log('hello');
+            var
+                all_answered = true,
+                answers = document.querySelectorAll(".options[id ^= ans_]");
+            for (var i = 0; i < answers.length; i++) {
+                var
+                    id = answers[i].id,
+                    radios = document.querySelectorAll("[name = " + id + "]"),
+                    hasChecked = [].some.call(radios, function (radio) {
+                        return radio.checked;
+                    });
+                if (!hasChecked) {
+                    all_answered = false;
+                    break;
+                }
+            }
+            if (!all_answered) {
+                alert("Some questiones were not answered. Please check all questions and select an option.");
+                event.preventDefault();
+            }
+        });
+    </script>
+</html>

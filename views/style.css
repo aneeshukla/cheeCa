@@ -1,0 +1,106 @@
+body {
+    background-image: url('image.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header
+{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.showColleges, .showCourses
+{
+    
+}
+
+h2{
+    text-align: left;
+    font-family: 'Cinzel', serif;
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding-left: 15%;
+    padding-right: 10%;
+    margin-top: 4%;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 20%; /* IE10 */
+    flex: 20%;
+    max-width: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.column button {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 80%;
+}
+
+.button {
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    background-color: transparent;
+    border: double rgb(14, 14, 14);
+    padding: 20px;
+    font-size: 20px;
+    align-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.round {
+    border-radius: 50%;
+}
+table, th, td 
+{
+    margin:10px 0;
+    border:solid 1px #333;
+    padding:2px 4px;
+    font:15px Verdana;
+    background-color: #f1f1f19a;
+}
+th {
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+}
+table{
+    margin-left: 5%;
+    margin-right: 5%;
+}
